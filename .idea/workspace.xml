@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0084e20-706f-45df-a0a5-d6401eb6d9ed" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="a0084e20-706f-45df-a0a5-d6401eb6d9ed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/moveright/features/CustomerCanSearchForPropertyForSale.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +13,9 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -22,15 +28,25 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1TwqZ6DE7J4i60UYAJFQJD4rea9" />
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -46,5 +62,51 @@
       <updated>1574381557395</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="487" y="224" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575235891205">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="487" y="224" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1575235891205" />
+    <state x="772" y="13" key="CommitChangelistDialog2" timestamp="1575239499797">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="772" y="13" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1575239499797" />
+    <state x="922" y="150" key="FileChooserDialogImpl" timestamp="1575231709481">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="922" y="150" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1575231709481" />
+    <state x="623" y="288" key="NewModule_or_Project.wizard" timestamp="1575236125438">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="623" y="288" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1575236125438" />
+    <state x="559" y="37" key="SettingsEditor" timestamp="1575236209193">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="559" y="37" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1575236209193" />
+    <state x="534" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1575235950733">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="534" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1575235950733" />
+    <state x="662" y="18" width="874" height="747" key="new project wizard" timestamp="1575231908150">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="662" y="18" width="874" height="747" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1575231908150" />
   </component>
 </project>
