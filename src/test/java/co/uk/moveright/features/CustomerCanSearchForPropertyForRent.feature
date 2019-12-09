@@ -36,4 +36,3 @@ Scenario Outline: Customer Cannot search for property with missing values
 Examples:
 |Location |Mile | MinPrice |MaxPrice |MinBed |MaxBed |Property |TimeAddded |
 |M221XC |Within ¼ mile |50,000 |50,000 |Studio |Studio |Houses |Anytime|
-
