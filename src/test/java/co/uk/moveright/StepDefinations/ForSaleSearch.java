@@ -16,7 +16,7 @@ public class ForSaleSearch {
     public void i_navigate_to_rightmove_homepage() {
         WebDriverManager.chromedriver().setup();
         driver=new ChromeDriver();
-        driver.navigate().to("www.rightmove.co.uk/");
+        driver.navigate().to("https://www.rightmove.co.uk/");
     }
 
     @When("I enter a{string}in search text box")
@@ -66,5 +66,17 @@ public class ForSaleSearch {
     @Then("I save property of my choice")
     public void i_save_property_of_my_choice() {
 
+    }
+
+    @When("I click on For sale button")
+    public void i_click_on_For_sale_button() {
+        // Write code here that turns the phrase above into concrete actions
+        throw new cucumber.api.PendingException();
+    }
+
+    @Then("an error message is displayed")
+    public void an_error_message_is_displayed() {
+        // Write code here that turns the phrase above into concrete actions
+        throw new cucumber.api.PendingException();
     }
 }

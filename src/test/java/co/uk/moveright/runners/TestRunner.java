@@ -10,8 +10,7 @@ import org.junit.runner.RunWith;
         features = {"src/test/java/co/uk/moveright/features/CustomerCanSearchForPropertyForSale.feature"}
             , plugin={"pretty","json:target/report.json",
         "de.monochromata.cucumber.report.PrettyReports:target/pretty-cucumber"},
-glue = {"co/uk/moveright/StepDefinitions"},
-
+glue = {"co/uk/moveright/StepDefinations"}
 )
 public class TestRunner {
 

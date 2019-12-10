@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0084e20-706f-45df-a0a5-d6401eb6d9ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/moveright/StepDefinations/ForRentSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/moveright/StepDefinations/ForSaleSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/moveright/runners/TestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/moveright/features/CustomerCanSearchForPropertyForRent.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/moveright/features/CustomerCanSearchForPropertyForRent.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/moveright/StepDefinations/ForSaleSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/moveright/StepDefinations/ForSaleSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/moveright/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/moveright/runners/TestRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,22 +161,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="922" y="150" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1575231709481" />
-    <state width="1436" height="195" key="GridCell.Tab.0.bottom" timestamp="1575852734847">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1576002331477">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1436" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575852734847" />
-    <state width="1436" height="195" key="GridCell.Tab.0.center" timestamp="1575852734847">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576002331477" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1576002331476">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1436" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575852734847" />
-    <state width="1436" height="195" key="GridCell.Tab.0.left" timestamp="1575852734846">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576002331476" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1576002331476">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1436" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575852734846" />
-    <state width="1436" height="195" key="GridCell.Tab.0.right" timestamp="1575852734847">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576002331476" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1576002331477">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1436" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575852734847" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576002331477" />
     <state x="623" y="288" key="NewModule_or_Project.wizard" timestamp="1575236125438">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
