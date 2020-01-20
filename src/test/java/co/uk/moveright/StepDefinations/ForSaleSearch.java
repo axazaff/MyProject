@@ -1,15 +1,21 @@
 package co.uk.moveright.StepDefinations;
 
+import co.uk.moveright.pages.BasePage;
+import co.uk.moveright.pages.HomePage;
+import co.uk.moveright.pages.ProductDetailsPage;
+import co.uk.moveright.pages.SearchResultPage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.PageFactory;
 
 
-public class ForSaleSearch {
-    WebDriver driver;
+public class ForSaleSearch extends BasePage {
+    HomePage homePage = PageFactory.initElements(driver,HomePage.class);
+    SearchResultPage searchResultPage = PageFactory.initElements(driver,SearchResultPage.class);
+    ProductDetailsPage productDetailsPage = PageFactory.initElements(driver,ProductDetailsPage);
 
 
     @Given("I navigate to rightmove homepage")
@@ -20,12 +26,14 @@ public class ForSaleSearch {
     }
 
     @When("I enter a{string}in search text box")
-    public void i_enter_a_in_search_text_box(String string) {
+    public void i_enter_a_in_search_text_box(String search) {
+        homePage.enterLocation(search);
 
     }
 
     @When("I click on for sale button")
     public void i_click_on_for_sale_button() {
+
 
     }
 
@@ -37,20 +45,25 @@ public class ForSaleSearch {
     @When("I select{string} with{string} from price range")
     public void i_select_with_from_price_range(String string, String string2) {
 
+
     }
 
     @When("I select {string} with{string} from No. of bed")
-    public void i_select_with_from_No_of_bed(String string, String string2) {
+    public void i_select_with_from_No_of_bed(String bed) {
+        homePage.selectMinNoOfBedrooms(bed);
 
     }
 
-    @When("I select {string} from property type")
-    public void i_select_from_property_type(String string) {
 
+    @When("I select {string} from property type")
+    public void i_select_from_property_type(String ptype)
+        {
+homePage.selectPropertyType(ptype);
     }
 
     @When("I select{string}from Anytime")
-    public void i_select_from_Anytime(String string) {
+    public void i_select_from_Anytime(String TimeAdded) {
+        homePage.selectAddedToSite(TimeAdded);
 
     }
 

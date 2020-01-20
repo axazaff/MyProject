@@ -3,20 +3,31 @@ package co.uk.moveright.pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class HomePage extends BasePage
 {
     public HomePage(WebDriver driver)
     {
         this.driver = driver;
+        PageFactory.initElements(driver,this);
     }
     @FindBy (id = "search-input-location")
     private WebElement searchField;
+    @FindBy (id ="minPrice")
     private WebElement minPrice;
-    private WebElement maxPrice;
+    @FindBy (name = "maxPrice")
+    private WebElement MaxPrice;
+    @FindBy (id = "displayPropertyType")
     private WebElement propertyType;
-    private WebElement NoOfBedrooms;
+    @FindBy (id = "minBedrooms")
+    private WebElement MinNoOfBedrooms;
+    @FindBy (id = "maxBedrooms")
+    private WebElement MaxNoOfBedrooms;
+    @FindBy (id = "maxDaysSinceAdded")
     private WebElement AddToSite;
+    @FindBy(css = ".button.touchsearch-button.touchsearch-primarybutton")
+    private WebElement submitButton;
 
 
     public void enterLocation(String location)
@@ -28,21 +39,31 @@ public class HomePage extends BasePage
     {
         SelectByText(minPrice,miniPrice);
     }
-    public void selectMaximumPrice(String maxPrice)
+    public void selectMaximumPrice(String maxiPrice)
     {
-        SelectByText(maxPrice,maxPrice);
+        SelectByText(MaxPrice,maxiPrice);
     }
-    public void selectPropertyType(String propertyType)
+    public void selectPropertyType(String pType)
     {
-        SelectByValue(propertyType,propertyType);
+        SelectByText(propertyType,pType);
 
     }
-    public void selectNoOfBedrooms(String NoOfBedrooms)
+    public void selectMinNoOfBedrooms(String bedRoom)
     {
-        SelectByValue(NoOfBedrooms,NoOfBedrooms);
+        SelectByText(MinNoOfBedrooms,bedRoom);
     }
-public void selectAddedToSite(String AddedToSite)
+    public void selectMaxNoOfBedrooms(String bedRoom)
+    {
+        SelectByText(MaxNoOfBedrooms,bedRoom);
+    }
+    public void selectAddedToSite(String addedtime)
 {
-    SelectByValue(AddedToSite,AddedToSite);
+    SelectByText(AddToSite,addedtime);
 }
+public SearchResultPage clickOnSubmitButton()
+{
+ submitButton.click();
+ return new SearchResultPage(driver);
+}
+
 }

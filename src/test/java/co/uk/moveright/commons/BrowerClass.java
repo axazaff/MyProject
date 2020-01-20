@@ -7,6 +7,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
+import java.util.concurrent.TimeUnit;
+
 public class BrowerClass extends DriverClass  {
     private WebDriver initChrome()
     {
@@ -51,6 +53,9 @@ public class BrowerClass extends DriverClass  {
 
         }
         driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(30,TimeUnit.SECONDS);
+
     }
 public void closeBrower()
 {
